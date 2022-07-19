@@ -1,0 +1,480 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.header-left a{
+    text-decoration:none;
+    color: rgb(100, 100, 236);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 1px solid blue;
+
+    margin:auto 120px;
+    text-align: center;
+}
+
+.header-right img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.mid{
+    margin: 130px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.mid img{
+    border-radius: 50%;
+}
+
+.text{
+    width: 90%;
+}
+
+h1{
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: rgb(56, 56, 56);
+    margin-bottom: 10px;
+
+}
+
+.description{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #555555;
+}
+
+
+.down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+
+.points{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 5px;
+}
+
+.dot:nth-child(1){
+    background-color:rgb(100, 100, 236);
+    transform: scale(1.2);
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #5555553b;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgb(100, 100, 236);
+}
+
+
+.registerButton{
+    width: 80%;
+    background-color: rgb(78, 78, 255);
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.yatengo{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    display: flex;
+    color: rgb(100, 100, 255);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* REGISTER STYLES */
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    height: 120vh;
+}
+.registro-top{
+    width: 85%;
+    height: 100%;
+}
+
+.flechita{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #595959;
+}
+
+.registerH1{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 27px;
+}
+.registerSub{
+    color: #5555;
+    font-size: 18px;
+    text-align: left;
+    margin-top: -10px;
+    font-weight: 600
+}
+
+.emails{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: -45px;
+}
+
+.registerDot{
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 1px solid #555555;
+    background-color: transparent;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.reigsterOtro{
+    color: blue;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.register-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 30px;
+}
+.registerSeguirBtt{
+    width: 80%;
+    background-color: rgba(158, 158, 158, 0.171);
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(160, 160, 160, 1);
+    text-align: center;
+    padding: 15px;
+}
+
+.registerSeguirBtt:hover{
+    color: white;
+    background-color: rgb(78, 78, 255);
+}
+
+/*CREAR CONTRASEÑA STYLES*/
+
+.contrasenaPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-left: 55px;
+}
+.contrasenaPage .flechita{
+    margin-top: 20px;
+    font-size: 24px;
+    color: #595959;
+    margin-left: -20px;
+    margin-bottom: 40px;
+}
+
+.contrasenaTop{
+    width: 85%;
+    height: 100%;
+}
+
+.contrasenaTop h2{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 500;
+}
+
+.contrasenaTop .mail{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.inputContrasena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+}
+.contrasenaCual{
+    font-size: 14px;
+    color: rgb(78, 78, 255);
+}
+
+.inputContrasena input{
+    width: 90%;
+    height: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(100, 100, 255);
+    padding: 10px;
+}
+
+.inputContrasena input:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(100, 100, 255);
+    text-decoration-line: initial;
+}
+
+.inputContrasena input::placeholder{
+    color: rgb(100, 100, 255);
+    text-align: right;
+    cursor: pointer;
+}
+
+.requirmentsWrapper{
+    display: flex;
+    flex-direction: column;
+    margin-left: -50px;
+}
+
+.requirments{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;    
+}
+
+.requirmentsDot{
+    width: 20px;
+    height: 20px;
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.contrasenaDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 50vh;       
+}
+.contrasenaDown i{
+    margin-right: 20px;
+    font-size: 20px;
+    color: rgb(100, 100, 255);
+}
+.contrasenaPrecaution{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;   
+    margin-left: -100px;
+    margin-top: 150px;
+    margin-bottom: 20px;
+}
+
+
+.contrasenaconsejo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contrasenaPrecauionTitle{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: 20px;
+}
+.contrasenaPrecauionText{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    margin-top: -10px;
+    margin-left: -40px;
+    color: #555555;
+}
+
+
+.botondeseguirContrasena{
+    width: 80%;
+    background-color: rgba(158, 158, 158, 0.171);
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(160, 160, 160, 1);
+    text-align:  center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.botondeseguirContrasena:hover{
+    color: white;
+    background-color: rgb(78, 78, 255);
+}
+
+/*CONFIRMAR CORREO STYLES*/
+
+.confirmarAll{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.confirmar-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.flechita{
+    margin-left: -10px;
+    font-size: 20px;
+}
+
+.confirmarTitle{
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    width: 70%;
+    margin-bottom: -10px;
+}
+
+.confirmarSub{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-weight: 400;
+    color: #555555;
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.ic{
+    width: 97%;
+    height: 100%;
+}
+
+.confirmarOpciones{
+    color: rgb(100, 100, 255);
+    font-size: 16px;
+}
+
+.allOpciones{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.confirmar-down{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+}
+
+.confirmarSeguirBtt{
+    width: 80%;
+    background-color: rgba(158, 158, 158, 0.171);
+    border-radius: 50px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: rgba(160, 160, 160, 1);
+    text-align:  center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.confirmarSeguirBtt:hover{
+    color: white;
+    background-color: rgb(78, 78, 255);
+}
